@@ -1,0 +1,11 @@
+.taskManager__wrap {
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.taskManager__content {
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto
+}

@@ -1,0 +1,12 @@
+.taskItem_wraper {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskItem_content {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  word-break: break-word;
+}

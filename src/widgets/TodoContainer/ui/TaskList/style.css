@@ -1,0 +1,6 @@
+.taskList_wraper {
+  margin: 0 25px;
+
+  max-height: 400px;
+  overflow-y: auto;
+}

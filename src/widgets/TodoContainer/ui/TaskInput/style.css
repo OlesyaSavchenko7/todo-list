@@ -1,0 +1,14 @@
+.taskInput__wraper {
+  display: flex;
+  margin: 15px;
+}
+
+.taskInput__content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.taskInput__controler {
+  margin-top: auto;
+  margin-bottom: auto;
+}
