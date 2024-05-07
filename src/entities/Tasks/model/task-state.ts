@@ -10,7 +10,6 @@ export const Task = types.model('Task', {
 })
 .actions(self => ({
   toggleDone() {
-    console.log('toggleDone self', self);
     self.isDone = !self.isDone;
   }
 }));

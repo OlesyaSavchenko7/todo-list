@@ -4,6 +4,7 @@ import { TodoContainer } from 'src/widgets/TodoContainer/index';
 
 import './style.css';
 
+/** Страница управления задачами */
 const TaskManagerPage = observer(() => {
 
   const taskState = TaskState.create();

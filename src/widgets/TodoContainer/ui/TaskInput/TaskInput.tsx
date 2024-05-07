@@ -13,6 +13,7 @@ interface TaskInputProps {
   addBtnTitle?: string;
 }
 
+/** Компонент для ввода и добавления новой задачи */
 const TaskInput = observer((props: TaskInputProps) => {
   const {
     onAddTask,

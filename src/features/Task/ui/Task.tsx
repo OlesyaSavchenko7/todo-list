@@ -12,6 +12,7 @@ interface TaskProps {
   onRemoveTask: ITaskList['removeTask'];
 }
 
+/** Компонент для отображения задачи и управления ею */
 const Task = observer((props: TaskProps) => {
   const { task, onRemoveTask } = props;
 
@@ -24,13 +25,13 @@ const Task = observer((props: TaskProps) => {
   }
 
   return (
-    <div className="taskItem_wraper">
-      <div className="taskItem_content">
+    <div className="taskItem__wraper">
+      <div className="taskItem__content">
         <Checkbox
           checked={task.isDone}
           onChange={toggleDone}
         />
-        <span className='' style={{ textDecoration: task.isDone ? "line-through" : "none" }}>
+        <span style={{ textDecoration: task.isDone ? "line-through" : "none" }}>
           {task.name}
         </span>
       </div>

@@ -10,7 +10,7 @@ interface TaskListProps {
   tasks: ITaskList['tasks'];
 }
 
-
+/** Компонент для отображения списка задач */
 const TaskList = observer((props: TaskListProps) => {
   const { onRemoveTask, tasks } = props;
 
